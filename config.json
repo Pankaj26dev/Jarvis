@@ -1,0 +1,46 @@
+{
+    "wake_word": "jarvis",
+    "wake_word_sensitivity": 0.7,
+    "wake_word_delay": 0.3,
+    "mic_device_index": 1,
+    "mic_gain": 1.5,
+    "vad_rms_threshold": 0.004,
+    "record_duration": 12,
+    "samplerate": 16000,
+    "whisper_model": "base",
+    "speech_language": "en",
+    "speech_start_timeout_seconds": 5.0,
+    "transcription_min_avg_logprob": -1.0,
+    "transcription_max_no_speech_prob": 0.65,
+    "ollama_model": "qwen2.5-coder:1.5b",
+    "ollama_url": "http://127.0.0.1:11434",
+    "ollama_autostart": true,
+    "ollama_keep_alive": -1,
+    "ollama_max_tokens": 64,
+    "conversation_history_limit": 4,
+    "agent_enabled": true,
+    "agent_max_steps": 4,
+    "agent_max_tool_calls": 6,
+    "agent_max_tokens": 128,
+    "youtube_playlist_url": "",
+    "app_aliases": {},
+    "item_aliases": {},
+    "tool_search_roots": [],
+    "conversation_follow_up_turns": 5,
+    "conversation_timeout_turns": 3,
+    "tts": {
+        "rate": 185,
+        "volume": 1.0,
+        "voice_id": null
+    },
+    "noise_filter": {
+        "enabled": false,
+        "silence_threshold": 0.005,
+        "min_speech_ratio": 0.02
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "jarvis.log",
+        "console": true
+    }
+}
